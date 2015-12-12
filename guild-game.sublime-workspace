@@ -3,6 +3,22 @@
 	{
 		"selected_items":
 		[
+			[
+				"ava",
+				"availableItems"
+			],
+			[
+				"getRan",
+				"getRandomFromArray"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"getRand",
+				"getRandomConsanant"
+			]
 		]
 	},
 	"buffers":
@@ -11,17 +27,84 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 439,
+				"buffer_size": 864,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adventurer.js",
+			"settings":
+			{
+				"buffer_size": 946,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "game.js",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "view.js",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Unix",
+				"name": "var View (function() {"
+			}
+		},
+		{
+			"file": "name-generator.js",
+			"settings":
+			{
+				"buffer_size": 1430,
+				"line_ending": "Unix",
+				"name": "var NameGenerator = (function() {"
+			}
+		},
+		{
+			"file": "random.js",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix",
+				"name": "var Random = (function() {"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 207.0,
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				":tab",
+				"View: Toggle Tabs"
+			],
+			[
+				":spaces",
+				"Indentation: Convert to Spaces"
+			],
 			[
 				":install",
 				"Package Control: Install Package"
@@ -44,6 +127,7 @@
 	},
 	"file_history":
 	[
+		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/andrewsinclair/notes/INTLO-1121.txt",
 		"/Users/andrewsinclair/notes/AWS.txt",
 		"/Users/andrewsinclair/Documents/EFT-files-Content-sep8.csv",
@@ -62,7 +146,6 @@
 		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
 		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/andrewsinclair/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/andrewsinclair/Downloads/logs 3/2015-06-21-0400.txt",
 		"/Users/andrewsinclair/Downloads/prod logs/PROD-2015-06-21-0300.txt",
@@ -98,6 +181,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"toTitleCase",
+			"Name",
+			"body",
 			"1441623600000",
 			"Kristina",
 			"Christina",
@@ -177,21 +263,165 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								342,
+								342
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "adventurer.js",
+					"settings":
+					{
+						"buffer_size": 946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "game.js",
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "view.js",
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var View (function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "name-generator.js",
+					"settings":
+					{
+						"buffer_size": 1430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var NameGenerator = (function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "random.js",
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var Random = (function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
